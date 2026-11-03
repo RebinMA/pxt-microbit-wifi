@@ -1,0 +1,26 @@
+{
+    "name": "pxt-microbit-wifi",
+    "version": "0.1.0",
+    "description": "Connect micro:bit to WiFi with an ESP8266: send HTTP GET/POST requests to any server and upload data to ThingSpeak. Works with the ELECFREAKS IoT kit and other ESP8266 modules.",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
